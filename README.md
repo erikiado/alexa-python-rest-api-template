@@ -20,7 +20,7 @@ During the `aws configure` you will use this region in this case `us-east-1`
 6. Change `<FUNCTION_NAME>` in `publish.sh`
 7. In the `Endpoint` tab in the [developer console](https://developer.amazon.com/alexa/console/ask) link your skill with your service by providing the ARN of your lambda function.
 > At this point you should be able to see your skill listed as a dev skill under the `Skills > Your Skills > Dev Skills` menu in the [Alexa Console](https://alexa.amazon.com/spa/index.html#skills/your-skills/?ref-suffix=ysa_gw).
-8. After succesfully setting an invocation name, saving and building the model and saving the endpoint, head over to the test tab so we can interact with alexa in the developers console.
+8. After succesfully setting an invocation name, saving and building the model and saving the endpoint, run `publish.sh` and head over to the test tab so we can interact with alexa in the developers console.
 9. Talk or write: `alexa <activate_word> <invocation_name>` in where `<activate_word>` can be replaced for words like: `open`, `abrir`, `preguntar` and *others*. 
 10. Copy the json input that your call produces and paste it on the lambda console under the `Configure test event > New test event` option this way, you have a way to easily test and debug your function for this specific intent.
 11. Share your skill and any improvements to this template :))
