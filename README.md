@@ -12,7 +12,8 @@ Here is a [link](https://github.com/alexa/skill-sample-python-howto/tree/master/
 
 Be sure to create and work your items in the same region, you can see the region you are working as a get parameter in the aws console links: `https://console.aws.amazon.com/lambda/home?region=us-east-1#/`.
 During the `aws configure` you will use this region in this case `us-east-1`
-### 11 easy steps to run and test this template:
+
+## 11 easy steps to run and test this template:
 1. [Create an AWS account](https://console.aws.amazon.com/)
 2. [Create an AWS IAM group with admin permissions and user to get aws-cli credentials](https://console.aws.amazon.com/iam/home)
 3. [Create an Amazon Developer account](https://developer.amazon.com/)
