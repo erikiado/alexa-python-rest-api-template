@@ -7,4 +7,5 @@ cp -r py/* skill_env/
 cd skill_env
 zip -X -r ../lambda.zip *
 cd .. 
-aws lambda update-function-code --function-name <FUNCTION_NAME> --zip-file fileb://lambda.zip
+aws lambda update-function-code --profile <AWS_CREDENTIALS_PROFILE> --function-name <AWS_LAMBDA_FUNCTION_NAME> --zip-file fileb://lambda.zip
+

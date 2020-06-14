@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 lambda/skill_env/*
-lambda/lambda.zip
+*.zip
 __pycache__/
 *.py[cod]
 *$py.class
