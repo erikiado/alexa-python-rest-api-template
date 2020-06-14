@@ -1,6 +1,12 @@
 # Alexa Python Skill Template
 
+## Pokedex Example
+This alexa skill is a small demo template which serves as a frontend for the [PokeAPI](https://pokeapi.co/) to demonstrate how to interact with a third party API from within an Alexa Lambda Function. It consists of the basic Launch, Help, Cancel intents, as well as a GetPokemon intent which interprets a slot from the user utterance to request information about the requested pokemon. 
+
+## Background
 This template is a fork of the [how to skill template](https://github.com/alexa/skill-sample-python-howto) tested in es-MX locale, with a script which improves workflow of publishing and testing the skill and with a working demo of a request being made to a third party service.
+
+This is now updated to work with the python decorators approach to intents to reduce boilerplate code.
 
 Here is a [link](https://github.com/alexa/skill-sample-python-howto/tree/master/instructions) to more detailed instructions on setting up the skill, but basically:
 
