@@ -24,7 +24,7 @@ During the `aws configure` you will use this region in this case `us-east-1`
     - Role from template
     - Permission for simple microservices
 > There are some templates or blueprints in there if you search for `alexa`, but this is what worked for me because this way I am able to work on my editor instead of the amazon lambda editor
-6. Change `<FUNCTION_NAME>` in `publish.sh`
+6. Change `<AWS_LAMBDA_FUNCTION_NAME>` in `publish.sh` to yours, also update  `<AWS_CREDENTIALS_PROFILE>` or remove if you have not configured multiple profiles.
 7. In the `Endpoint` tab in the [developer console](https://developer.amazon.com/alexa/console/ask) link your skill with your service by providing the ARN of your lambda function.
 > At this point you should be able to see your skill listed as a dev skill under the `Skills > Your Skills > Dev Skills` menu in the [Alexa Console](https://alexa.amazon.com/spa/index.html#skills/your-skills/?ref-suffix=ysa_gw).
 8. After succesfully setting an invocation name, saving and building the model and saving the endpoint, run `publish.sh` and head over to the test tab so we can interact with alexa in the developers console.
